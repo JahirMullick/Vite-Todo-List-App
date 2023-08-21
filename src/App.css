@@ -7,27 +7,65 @@
 }
 
 nav {
-    background-color: rgb(16, 41, 185);
+    background-color: #111;
     width: 100%;
     margin: auto;
     color: azure;
     text-align: center;
-    font-size: 18px;
     padding: 10px;
     box-sizing: border-box;
 }
 
+.header {
+    /* background-color: rgb(255, 255, 255); */
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.233);
+}
+
+.linktag {
+    text-decoration: none;
+    margin: 0px 25px 0px 0px;
+    color: black;
+}
+
+.contact {
+    background-color: #ced83b;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.user {
+    background-color: #4fb9e2;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.about {
+    background-color: #3bd86f;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+}
+
 body {
-    background-color: azure;
+    background-color: #fbfbfd;
 }
 
 .container {
     background-color: rgb(252, 244, 234);
     width: 70%;
     margin: auto;
-    min-height: 100vh;
     text-align: center;
-    min-height: 100vh;
+    min-height: 83vh;
     padding: 4vmax;
     box-sizing: border-box;
 }
@@ -101,7 +139,18 @@ button {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.753);
-    color: aliceblue;
-    height: 300px;
+    background-color: #111;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 0.9em;
+}
+
+footer>div:hover {
+    color: #fff;
 }

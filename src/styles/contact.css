@@ -1,0 +1,13 @@
+.contact-page {
+    padding: 20px;
+    min-height: 78.9vh;
+    /* background-color: #f9f9f9; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}

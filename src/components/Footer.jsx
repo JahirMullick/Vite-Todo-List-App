@@ -2,7 +2,11 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <footer>This Is Footer Page</footer>
+        <footer>
+            <div>
+                Copyright © 2023 All rights reserved || Designed By: Jahir
+            </div>
+        </footer>
     )
 }
 
